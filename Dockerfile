@@ -22,6 +22,8 @@ EXPOSE 80
 
 WORKDIR /var/www/html
 
+RUN yum -y install git
+
 RUN git clone https://vinodjain1@github.com/vinodjain1/kitgrocery.git
 
 COPY /kitgrocery /var/www/html
