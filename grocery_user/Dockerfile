@@ -27,7 +27,7 @@ WORKDIR /var/www/html
 
 RUN yum -y install git
 
-RUN git clone https://ea23c3f2688e6621cdb259d9e4632b93b2faa864@github.com/vinodjain1/grocery_user.git .
+RUN git clone https://95d15a295546e6f22cf31e220350ae3614022ac8@github.com/vinodjain1/grocery_user.git .
 
 RUN chown -R apache:apache /var/www
 # Start Apache
